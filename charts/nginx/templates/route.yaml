@@ -6,6 +6,7 @@ spec:
   to:
     kind: Service
     name: nginx
+    weight: 100
   port:
     targetPort: http
   tls:
